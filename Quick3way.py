@@ -9,7 +9,7 @@ def Quick3Way(arry,lo,hi):
 	i = lt+1
 	gt = hi
 
-	#三路切分算法的目的在于，当数组中有重复元素的时候。可以不用再一次切分元素
+	#三路切分算法的目的在于，当数组中有重复元素的时候。可以不用再一次切分
 	temp = arry[lo]
 	while i<=gt:
 		print(i)
